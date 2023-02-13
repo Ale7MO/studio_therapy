@@ -1,0 +1,43 @@
+#hidroterapia_pareja, #alberca_hidro, #servicio {
+  border-radius: 50%;
+  width: 400px;
+}
+
+#hidro_bici{
+  width: 400px;
+}
+
+#col-image{
+  padding-bottom: 5%;
+}
+
+#col-image-bici{
+  padding-top: 27%;
+}
+
+p, #lista-blog {
+  font-size: 12px;
+  text-align: justify;
+}
+
+#whatsapp{
+  padding-right: 2%;
+  width: 120px;
+  float: right;
+}
+
+#fisioterapeuta{
+  width: 350px;
+  padding-left: 18%;
+  padding-bottom: 10%;
+}
+
+#text-fisio{
+  text-align: center;
+}
+
+.img-blog{
+  width: 80%;
+  padding-left: 20%;
+  padding-bottom: 5%;
+}

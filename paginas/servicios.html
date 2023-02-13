@@ -1,0 +1,187 @@
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="../favicon-32x32.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/subpaginas.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Farro:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4c1965afad.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnj.cloudflare.com/ajax/libs/fontawesome/5.15.2/css/all.min.css">
+    <title>Servicios - Mi pagina con Flexbox</title>
+</head>
+<body>
+    <!--menu-->
+    <header>
+        <nav class="menu">
+            <section class="menu__container">
+                <img src="../recursos externos/img_logo_st.png" class="menu__img">
+                <ul class="menu__links">
+                    <li class="menu__item">
+                        <a href="../index.html" class="menu__link">Home</a>
+                    </li>
+    
+                    <li class="menu__item menu__item--show">
+                        <a href="#" class="menu__link">Servicios <img src="../recursos externos/arrow.svg" class="menu__arrow"></a>
+    
+                        <ul class="menu__nesting">
+                            <li class="menu__inside">
+                                <a href="#" class="menu__link menu__link--inside">Hidroterapia</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="#" class="menu__link menu__link--inside">Diagnóstico Integral</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="#" class="menu__link menu__link--inside">Terapia Domiciliaria</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu__item">
+                        <a href="nosotros.html" class="menu__link">Nosotros</a>
+                    </li>
+                    <li class="menu__item  menu__item--show">
+                        <a href="blog.html" class="menu__link">Blog<img src="../recursos externos/arrow.svg" class="menu__arrow"></a>
+    
+                        <ul class="menu__nesting">
+                            <li class="menu__inside">
+                                <a href="#" class="menu__link menu__link--inside">Fisioterapia Deportiva</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="#" class="menu__link menu__link--inside">Fisioterapia Respiratoria</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="#" class="menu__link menu__link--inside">Fisioterapia Traumatológica</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="#" class="menu__link menu__link--inside">Fisioterapia Ortopédica</a>
+                            </li>
+                        </ul>
+                    </li>
+    
+                    <li class="menu__item">
+                        <a href="contacto.html" class="menu__link">Contactanos</a>
+                    </li>
+    
+                </ul>
+    
+                <div class="menu__hamburguer">
+                    <img src="../recursos externos/menu.svg" class="menu__img">
+                </div>
+            </section>
+        </nav>
+    </header>
+        <ul class="iconos">
+            <li>
+            <img src="/iconos/registro.png" width="39" height="39">
+            </li>
+            <li>
+                <img src="/iconos/lupa.png" width="42" height="42">
+            </li>
+            <li>
+                <img src="/iconos/llamanos.png" width="40" height="40">
+            </li>
+                <form id="loginForm">
+              </ul>
+    </nav>
+        </header>
+    <!-- contenido  -->
+    <main>
+        <section>
+            <div class="container ">
+                <!--Seccion 1-->
+                <div class="row">
+                  <div class="col">
+                    <h2>Hidroterapia</h2>
+                    <p>La hidroterapia es una forma de terapia que utiliza el agua para tratar lesiones o mejorar la movilidad y la función corporal. Puede realizarse en una piscina o en un baño con agua caliente o fría, dependiendo del objetivo terapéutico.
+                        La hidroterapia se utiliza para una variedad de afecciones, incluyendo:
+                        Dolor de espalda y articulaciones: el agua ayuda a aliviar la presión sobre las articulaciones y a reducir el dolor.
+                        Lesiones deportivas: el agua proporciona un ambiente seguro y controlado para el ejercicio y la rehabilitación.
+                        Trastornos neurológicos: la hidroterapia puede ayudar a mejorar la fuerza muscular, la coordinación y la equilibrio en personas con trastornos neurológicos como el esclerosis múltiple o el daño cerebral traumático.
+                        Trastornos respiratorios: el agua puede ayudar a abrir las vías respiratorias y mejorar la respiración en personas con enfermedades respiratorias como el asma o la bronquitis. 
+                        En general, la hidroterapia es una forma segura y efectiva de mejorar la salud y la función corporal y puede ser parte integral de un programa de rehabilitación integral
+                    </p>
+                  </div>
+                  <div class="col">
+                    <div class="imagen-centrada">
+                        <img src="../imagenes/alberca_hidro.png" alt="Imagen de servicios" class="img-fluid" id="servicio">
+                    </div>
+                  </div>
+                </div>
+                <!--Seccion 1-->
+                <hr>
+                <div class="row">
+                    <div class="col">
+                        <div class="imagen-centrada" id="col-image-bici">
+                            <img src="../imagenes/hidroterapia_bici.png" alt="Imagen de servicios" class="img-fluid rounded mx-auto d-block" id="hidro_bici">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div>
+                            <img src="../imagenes/hidroterapia_pareja.png" alt="Hidroterapia en pareja" class="img-fluid" id="hidroterapia_pareja">
+                        </div>
+                        <h2>Terapia integral</h2>
+                        <p>La terapia integral es un enfoque holístico para la atención médica que considera todos los aspectos de la salud y el bienestar de una persona, incluyendo su físico, emocional, mental y espiritual. El objetivo de la terapia integral es mejorar la calidad de vida de una persona a través de un enfoque personalizado y un tratamiento que abarque múltiples áreas.
+                            La terapia integral puede incluir una combinación de diferentes modalidades terapéuticas, incluyendo terapia física, terapia ocupacional, terapia del lenguaje y la voz, psicoterapia, medicación y terapias complementarias como la acupuntura, la masoterapia y la hidroterapia.
+                            El proceso de terapia integral puede incluir los siguientes pasos:
+                            Evaluación: un profesional de la salud realiza una evaluación exhaustiva para identificar los problemas de salud y determinar la mejor manera de abordarlos.
+                            Planificación: se desarrolla un plan de tratamiento personalizado que incluya diferentes modalidades terapéuticas y estrategias para alcanzar los objetivos terapéuticos.
+                            Tratamiento: se aplica el plan de tratamiento, que puede incluir sesiones de terapia, ejercicios, medicación y terapias complementarias.
+                            Monitoreo y evaluación: el profesional de la salud monitorea el progreso y realiza ajustes en el plan de tratamiento según sea necesario.
+                            La terapia integral puede ser útil para tratar una amplia gama de problemas de salud, incluyendo lesiones deportivas, trastornos neurológicos, trastornos emocionales y de salud mental, y trastornos de la movilidad y el dolor crónico.
+                        </p>
+                    </div>
+                  </div>
+                  <!--Seccion 3-->
+                  <hr>
+                  
+                  <div class="row">
+                    <div class="col" id="col-image">
+                        <div class="imagen-centrada">
+                            <img src="../imagenes/tereapia_piernas_rodillo.png" alt="Imagen de servicios" class="img-fluid rounded mx-auto d-block" id="alberca_hidro">
+                        </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                        <h2>Fisioterapia Pedìatrica</h2>
+                        <p>La fisioterapia pediátrica es una especialidad de la fisioterapia que se enfoca en el tratamiento y cuidado de niños y adolescentes con afecciones musculoesqueléticas, neurológicas o respiratorias. Los fisioterapeutas pediátricos trabajan con niños desde recién nacidos hasta la adolescencia, brindándoles tratamiento y cuidado personalizado para ayudarlos a alcanzar su máximo potencial de movimiento y función.
+                            Los fisioterapeutas pediátricos utilizan una amplia variedad de técnicas, incluyendo terapia manual, ejercicios específicos y actividades lúdicas para ayudar a mejorar la movilidad, la fuerza y la coordinación de los niños. Además, también brindan asesoramiento y entrenamiento a las familias para que puedan continuar con el tratamiento en casa y asegurarse de que los niños alcancen sus objetivos a largo plazo.
+                            La fisioterapia pediátrica es una herramienta valiosa para ayudar a los niños a superar sus limitaciones físicas y mejorar su calidad de vida.
+                        </p>
+                    </div>
+                    <div class="col">
+                        <h2>Terapia física, ocupacional y del lenguaje</h2>
+                        <p>Terapia física: esto incluye tratamientos para mejorar la movilidad, la fuerza y la flexibilidad, así como la prevención y el tratamiento de lesiones.
+                            Terapia ocupacional: esta terapia ayuda a las personas a recuperar su capacidad para realizar actividades cotidianas, como vestirse, comer y escribir.
+                            Terapia del lenguaje y la voz: esta terapia se enfoca en mejorar la capacidad de comunicación y el habla de las personas con dificultades para hablar o entender el lenguaje. También puede ayudar en la prevención y tratamiento de trastornos de la voz.
+                        </p>
+                    </div>
+                  </div>
+                  <!--Seccion 2-->
+              </div>
+        </section>
+    </main>
+     <!-- pie de pagina -->
+     <footer>
+        <div class="contenedor">
+            <h2 class="titulo-seccion"> Contáctanos</h2>
+        </div>
+        <div class="redes-sociales">
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+          </div>
+        <div class="contenedor"></div>
+        <p class="copy">© 2023 MO dsng. todos los derechos reservados.</p>
+    </footer>
+    <script src="https://kit.fontawesome.com/4c1965afad.js" crossorigin="anonymous"></script>
+    <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+        <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #87d4d987;"></path></svg></div>
+        <script src="../js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,339 @@
+*,
+*:before, 
+*:after{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: var(--paddingsecciones);
+}
+
+:root{
+    --colortitulos: #87d4d9;
+    --colortextos: #565e65;
+    --colorbotones: #d9504d;
+    --colorfondo: #87d4d9;
+    --paddingsecciones: 60px 0;
+    --marginelementos: 40px;
+}
+
+body{
+    font-family:Farro ;
+}
+.header{
+    background-color: #87d4d9;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    nav-left: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80;
+}
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+}
+
+/* MENU */
+.topheader{
+    box-shadow: 0 4px 10px var(#87d4d9c6);
+    position: fixed;
+    background-color: #ffff;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.topnav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    max-width: 980px;
+    margin: 0 auto;
+}
+/* logo* */
+
+.logo{
+    display: flex;
+    align-items: center;
+    font: size 25px;
+}
+.logo img{
+    border-radius: 50%;
+}
+/* MENU */
+
+.menu{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li{
+    padding: 0 15px;
+}
+
+.menu a{
+    color: var(--colortextos);
+    font-size: 18px;
+    font-weight: 500px;
+    line-height: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.open-menu,
+.close-menu{
+    display: none;
+}
+
+@media (max-width: 950px){
+    
+}
+
+
+@media screen and (max-width: 952px) {
+    .logo{
+        font-size: 30px;
+        padding-left: 35px;
+    }
+    .menu_items li a{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 858px) {
+    .menu {
+        flex-direction: column;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        align-items: center;
+        background: #565e65;
+        height: 100%;
+        overflow-y: auto;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.3s;
+    }
+    .menu li{
+        padding: 0;
+    }
+    .menu a{
+        color: var(--colortextos);
+        line-height: 60px;
+    }
+    
+    .open-menu,
+    .close-menu{
+        display: none;
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+    .close-menu{
+        align-self: flex-end;
+        padding: 20px 15px;
+    }
+    .menu_opened{
+        opacity: 1;
+        pointer-events: all;
+    }
+    
+
+/* Hero */
+
+.hero{
+    height: 400px;
+    background-image: url("../imagenes/clinica.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+
+.contenedor-textos{
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.hero h1{
+    font-size: 36px;
+    font-weight:700;
+    margin-bottom: 30px;
+}
+
+.hero p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.boton{
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    padding: 15px 0;
+    background: var(--colorbotones);
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 20px;
+
+}
+/* Main */
+
+.titulo-seccion{
+    text-align: center;
+    font-size: 35px;
+    color: var(--colortitulos);
+}
+
+.copy{
+    text-align: center;
+    color: var(--colortextos);
+    margin: 20px 0;
+}
+.beneficios{
+    padding-top: var(--marginelementos);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.beneficio{
+    font-size: 20px;
+    width: 10em;
+    height: 10em;
+    background-image: url("../imagenes/diagnostico1.png");
+    background-size: cover;
+    background-position: center;
+    color:#ffffff;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border-radius: 0%;
+
+}
+.beneficios{
+    font-size: 20px;
+    width: 10em;
+    height: 10em;
+    background-image: url("../imagenes/ninos.jpg");
+    background-size: cover ;
+    background-position: center;
+    color:#ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15%;
+}
+
+.benef{
+    font-size: 20px;
+    width: 10em;
+    height: 10em;
+    background-image: url("../imagenes/al_hi_med.png");
+    background-size: cover ;
+    background-position: center;
+    color:#ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
+}
+
+.boton{
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    padding: 15px 0;
+    background: var(--colorbotones);
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 20px;
+}
+footer .titulo-seccion{
+    color: var(--colortitulos)
+}
+footer .copy{
+    color: #565e65;
+}
+.redes-sociales{
+    display: flex;
+    justify-content: center;
+    color: var(--colortextos)
+}
+.redes-sociales i{
+    font-size: 30px;
+    padding: 0 20px;
+}
+
+.beneficio{
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width:800px){
+    .menu-navegacion{
+        flex-direction: column;
+        height: 120px;
+        justify-content: space-evenly;
+    }
+    .hero h1{
+        font-size: 36px;
+        margin-top: 50px;
+    }
+    .hero p{
+        font-size: 14px;
+        font-weight:400 ; 
+    }
+    .boton{
+        margin-bottom: 0px;
+    }
+    .beneficio{
+        margin-bottom: 40px;
+    }
+}
+
