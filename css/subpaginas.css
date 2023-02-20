@@ -1,13 +1,24 @@
-#hidroterapia_pareja, #alberca_hidro, #servicio {
-  border-radius: 50%;
+
+/*SERVICIOS*/
+
+#hidroterapia_pareja, #consultorio_ninos, #servicio {
+  border-top-left-radius: 180px;
+  border-bottom-right-radius:  180px;
+  border-bottom-width: 5 px;
   width: 400px;
 }
 
 #hidro_bici{
+  border-top-right-radius: 180px;
+  border-bottom-left-radius:  180px;
   width: 400px;
 }
 
+
 #col-image{
+ /* border-top-left-radius: 180px;
+  border-bottom-right-radius:  180px;
+  border-bottom-width: 5 px;s*/
   padding-bottom: 5%;
 }
 
@@ -25,19 +36,30 @@ p, #lista-blog {
   width: 120px;
   float: right;
 }
-
+/*NOSOTROS*/
 #fisioterapeuta{
   width: 350px;
   padding-left: 18%;
   padding-bottom: 10%;
-}
+  border-top-left-radius: 180px;
+  border-bottom-right-radius:  180px;
+  border-bottom-width: 5 px;
+  }
 
 #text-fisio{
   text-align: center;
 }
 
+/*BLOG*/
+
 .img-blog{
+  border-top-left-radius: 180px;
+  border-bottom-right-radius:  180px;
   width: 80%;
   padding-left: 20%;
   padding-bottom: 5%;
+}
+
+h2, h3{
+  font-family: 'Cinzel Decorative', cursive;
 }

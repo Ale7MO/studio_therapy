@@ -7,11 +7,9 @@
         listElements.forEach(element =>{
             element.addEventListener('click', ()=>{
 
-
                 let subMenu = element.children[1];
                 let height = 0;
                 element.classList.toggle('menu__item--active');
-
 
                 if(subMenu.clientHeight === 0){
                     height = subMenu.scrollHeight;
